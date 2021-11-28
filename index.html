@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <img src="/images/logo.png" width="50" height="50" alt="star-logo" >
-        <nav>
+<!-- BANNER -->
+    <header class="banner">
+        <img src="/images/logo.png" alt="star logo" >
+        <nav class="nav">
             <ul>
                 <li>Home</li>
                 <li>About Us</li>
@@ -20,5 +22,125 @@
         </nav>
         <input type="search" placeholder="Search...">
     </header>
+
+<!-- WELCOME -->
+    <div class="welcome">
+        <h1>Welcome to Three Star Media</h1>
+        <img class="office" src="/images/main-banner.jpg" alt="office image">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suscipit lorem lacus, varius lobortis 
+            leo tempus sit amet. Praesent a imperdiet enim!</p>
+            <button type="button">Connect with us</button>
+    </div>
+
+    <!-- ABOUT US -->
+    <div class="about">
+        <h2>About Us</h2>
+        <img class="pp-table" src="/images/about-us.jpg" alt="ping-pong table">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suscipit lorem lacus, varius lobortis leo tempus sit amet. Praesent a imperdiet enim. Curabitur semper metus lacinia, ornare orci vitae, ullamcorper velit. Praesent ac pharetra velit. 
+            <br>
+            Curabitur dapibus, quam vel blandit lobortis, enim lorem gravida sem, ac lobortis est sapien nec lorem. Aliquam lobortis tincidunt diam, ac tincidunt enim vulputate eget. Etiam erat lectus, laoreet nec bibendum vel, lobortis non quam. Etiam dolor lectus, feugiat in euismod vitae, porttitor nec lacus.
+        </p>
+    </div>
+
+    <!-- OUR SERVICES -->
+    <!-- Should this be a list? so I can target nth:child in css? -->
+    <div class="services">
+        <h2>Our Services</h2>
+            <h3>Digital Transformation</h3>
+            <img class="dig-trans" src="/images/digital.jpg" alt="laptop and phone">
+            <button type="button">Digital Plans</button>
+
+            <h3>Marketing</h3>
+            <img class="marketing" src="/images/marketing.jpg" alt="laptop">
+            <button type="button">Marketing</button>
+
+            <h3>Video Production</h3>
+            <img class="vid-pro" src="/images/video.jpg" alt="phone displaying youtube">
+            <button type="button">Video Plans</button>
+
+            <h3>Web Development</h3>
+            <img class="web-dev" src="/images/web.jpg" alt="phone displaying instagram">
+            <button type="button">Web Plans</button>
+
+            <h3>Print</h3>
+            <img class="print" src="/images/print.jpg" alt="news stand">
+            <button type="button">Print Plans</button>
+    </div>
+
+    <!-- OUR VISION -->
+    <div class="our-vision">
+        <h3>Our Vision</h3>
+        <img src="/images/vision.jpg" alt="origami boats">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suscipit lorem lacus, varius lobortis 
+            leo tempus sit amet. Praesent a imperdiet enim. Curabitur semper metus lacinia, ornare orci vitae, ullamcorper velit.
+        </p>
+        <button type="button">Learn More</button>
+    </div>
+
+    <div class="our-team">
+        <h2>Our Team</h2>
+            <img class="john" src="/images/john.jpg" alt="image of a man">
+            <h3>John Doe</h3>
+            <h4>CEO and Co-owner</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suscipit lorem lacus, varius lobortis 
+                leo tempus sit amet. Praesent a imperdiet enim. Curabitur semper metus lacinia, ornare orci vitae, ullamcorper velit.
+            </p>
+
+            <img class="bob" src="/images/bob.jpg" alt="image of a man">
+            <h3>Bob Rite</h3>
+            <h4>CFO and Co-owner</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suscipit lorem lacus, varius lobortis 
+                leo tempus sit amet. Praesent a imperdiet enim. Curabitur semper metus lacinia, ornare orci vitae, ullamcorper velit.
+            </p>
+    </div>
+
+    <div class="contact-us">
+        <h2>Contact Us</h2>
+        <h3>Send us a message</h3>
+        <form>
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="fname">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+
+            <label for="message">Message</label>
+            <input type="text" id="Message" name="Message">
+
+            <button type="button">Send</button>
+        </form>
+    </div>
+
+    <div class="hours">
+        <h3>Hours of operation</h3>
+        <table>
+            <tr>
+                <th>Days</th>
+                <th>Hours</th>
+            </tr>
+            <tr>
+                <td>Monday-Friday</td>
+                <td>9 AM - 6 PM</td>
+            </tr>
+            <tr>
+                <td>Saturday-Sunday</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="location">
+        <h3>Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44863.11580051551!2d-75.7899557208984!3d45.3499278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1638066321066!5m2!1sen!2sca" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <footer>
+        <p> &copy;Copyright Three Star Media, 2020
+            <br>
+            All images taken are taken from <a href="https://unsplash.com/">Unsplash</a>
+        </p>
+    </footer>
 </body>
 </html>
