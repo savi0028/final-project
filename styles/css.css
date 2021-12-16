@@ -68,7 +68,6 @@ html{
 	background-color: var(--secondary);
 	display: flex;
 	flex-direction: row;
-	margin: 10px;
 }
 
 .nav { 
@@ -81,10 +80,22 @@ html{
 a {
 	text-decoration: none;
 	color: var(--secondary);
+	line-height: 40px;
+	margin: 10px;
+}
+
+li:first-child{
+	background-color: var(--secondary);
+}
+
+li:first-child a {
+	color: var(--primary);
 }
 
 input {
-	width: 90vw;
+	height: 40px;
+	width: 92vw;
+	margin-bottom: 10px;
 }
 
 .icon-zoom {
@@ -153,7 +164,6 @@ input {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	font-size: 14pt;
-	/* Maybe split into 2 ps? ---------------*/
   }
 
   /* OUR SERVICES */
@@ -170,7 +180,7 @@ input {
 	  margin-bottom: 20px;
   }
 #services div h3 {
-	  margin-top: 20px;
+	  margin-top: 30px;
 	  font-size: 20pt;
 	  font-weight: bold;
   }
@@ -192,7 +202,7 @@ input {
   }
 
 #services button {
-	  padding: 20px;
+	  padding: 30px;
 	  margin-top: 20px;
 	  font-size: 14pt;
 	  color: white;
@@ -233,10 +243,23 @@ input {
 	  margin-top: 20px;
   }
 
+  #our-vision {
+	  background-image: url("/images/vision.jpg");
+	  background-position: center;
+	  
+  }
+
   /* OUR TEAM */
 #our-team div { 
 	background-color: var(--accent);
 	padding: 10px;
+}
+
+#our-team h2 {
+	font-size: 30pt;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 #our-team div h3 {
@@ -288,18 +311,26 @@ input {
 }
 
 #message {
-	line-height: 100px;
+	line-height: 200px;
 }
 
 #contact-us form button {
 	background-color: var(--primary);
 	color: var(--secondary);
+	padding: 10px;
 }
 
 /* HOURS */
 
 #hours {
 	padding: 10px;
+}
+
+#hours h3 {
+	font-size: 20pt;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 #hours table {
@@ -314,111 +345,49 @@ th, td {
 
 th {
 	  background-color: var(--secondary);
+	  text-align: center;
   }
 
   /* LOCATION/MAP */
 
 #location iframe {
+	margin: 10px;
 	width: 100%;
 }
 
 #location h3 {
 	font-size: 20pt;
 	font-weight: bold;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 footer {
 	background-color: var(--primary);
 	color: var(--secondary);
-	padding: 20 10 20 0;
 	margin-top: 20px;
+	padding-top: 20px;
 }
 
-
-
-
-
-
-
-
-  	
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.banner ul li:active {
-	background-color: var(--primary);
-	
-}
-
-.banner ul li:active a {
-	color: var(--accent);
-}
-
-.banner {
-	background-color: var(--accent);
-	width: calc(100% - 20px);
+footer p {
 	padding: 10px;
+	line-height: 20px;
+	margin-top: 20px;
+
 }
 
-.search-bar {
-	text-align: center;
-	width: 100%;
-	display: flex;
-	height: 40px;
+footer p a {
+	text-decoration: underline;
 }
 
-.search-bar input{
-	width: 100%;
+@media screen and (min-width: 760px) {
+	.nav {
+		flex-direction: row;	
+	}
+
+	.search-bar {
+		width: 20%;
+	}
+
 }
-
-.search-bar .icon {
-	float: right;
-	color: var(--primary);
-	border: 1px solid var(--primary);
-	width: 40px;
-	line-height: 40px;
-	font-size: 25px;
-}
-
-#logo {
-	background-color: var(--primary);
-	
-}
-
-.banner ul li{
-	text-align: center;
-	height: 50px;
-	line-height: 50px;
-}
-
-.banner ul li a {
-	text-decoration: none;
-	color: var(--primary);
-}
-
-.bannerimg {
-	width: 100%;
-}
-
-.bannerimg {
-	display: block;
-	width: 100%;
-} */
-
-
-
-
-
